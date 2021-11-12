@@ -155,7 +155,7 @@ header .logo
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
-  background: -webkit-linear-gradient(#0071BC,#0600FF, #0071BC,#006BBF);
+  background: -webkit-linear-gradient( #0071BC,#006BBF, #ddd,#006BBF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -300,7 +300,7 @@ header .logo
   }
   .text h2
   {
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 10px;
   }
   .text {
@@ -308,7 +308,7 @@ header .logo
   }
   .text h3
   {
-    font-size: 1em;
+    font-size: 2em;
     margin-bottom: 10px;
     color: white;
     /* background: -webkit-linear-gradient(#444, #eee, #aaa);
