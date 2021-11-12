@@ -311,9 +311,9 @@ header .logo
     font-size: 1em;
     margin-bottom: 10px;
     color: white;
-    background: -webkit-linear-gradient(#444, #eee, #aaa);
+    /* background: -webkit-linear-gradient(#444, #eee, #aaa);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
   
   }
   .text p {
