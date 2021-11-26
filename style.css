@@ -287,7 +287,7 @@ header .logo
   color: #0071BC; 
 }
 .portfolio-text {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   color: #fff;
   position: relative;
 }
@@ -312,8 +312,19 @@ header .logo
   justify-content: center;
 }
 @media (max-width: 450px) {
-  .portfolio-text  p {
+  /* .portfolio-text {
+    margin-top: 100px;
+  } */
+  /* .portfolio-text {
     display: none;
+  } */
+  .portfolio-item {
+    margin: 6px;
+  }
+  .portfolio img {
+    width: 80px !important;
+    height: 80px !important;
+    margin-top: unset;
   }
 }
 
