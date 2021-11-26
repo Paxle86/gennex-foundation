@@ -286,10 +286,46 @@ header .logo
 {
   color: #0071BC; 
 }
-
+.portfolio-text {
+  margin-top: 50px;
+  color: #fff;
+  position: relative;
+}
+.portfolio {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio a {
+  text-decoration: none;
+  color: #fff;
+}
+.portfolio img {
+  width: 150px;
+  height: 150px;
+}
+.portfolio-item {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 450px) {
+  .portfolio-text  p {
+    display: none;
+  }
+}
 
 @media (max-width: 767px)
 {
+  .portfolio-text{
+    font-size: small;
+  }
+  .portfolio img {
+    width: 100px;
+    height: 100px;
+  }
   .toggle{
     display: block;
   }
